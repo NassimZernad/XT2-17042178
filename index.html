@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+  <link rel="stylesheet" href="css/style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <title>SpaceX Watch</title>
+  <link rel="icon" type="image/x-icon" href="favicon.png">
+  
+</head>
+
+<body onload="initClock()">
+
+  <div class="navigatie">
+    <!--hier komt de titel van de pagina-->
+		<h1>SpaceX Watch</h1>
+		<!--deze knop linkt mijn vorig project aan de huidige-->
+  	<div class="btn">
+      <button class="dig" onclick="window.location.href='index1.html'">Back to Dashboard</button>
+      </div>
+  
+  </div>
+
+<!--hier komt de analoge klok-->
+  
+  <div class="datumtijd">
+	 <div class="tijd">
+      <span id="hour">00</span>:
+      <span id="min">00</span>:
+      <span id="sec">00</span>
+      <span id="period">AM</span>
+    </div>
+	
+	<!--hier komt de huidige datum-->
+    <div class="datum">
+     <span id="day">Day</span>,
+	 <span id="num">00</span>
+     <span id="month">Month</span>,
+	 <span id="year">Year</span>
+    </div>
+	
+
+	
+  </div>
+  	
+
+	<!--hier komt de link met het javascriptbestand voor de pagina-->  
+    <script src="js/digital.js"></script>
+
+</body>
+
+</html>
